@@ -5,4 +5,5 @@ def my_select(collection)
       yield(collection[i]) ? new_array << collection[i] : nil
       i+=1
     end
+  new_array
 end
